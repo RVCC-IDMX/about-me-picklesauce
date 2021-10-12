@@ -11,8 +11,14 @@ h1 {
     font-size: 30pt;
 }
 
+/* Header Section */
+
 #header {
     text-align: center;
+}
+
+#header img {
+    width: 30px;
 }
 
 /* Hero Section */
@@ -59,4 +65,12 @@ h1 {
     padding: 2rem;
     max-width: 40rem;
     margin: 0 auto;
+}
+
+/* Footer Section */
+
+#footer {
+    border: 1pt solid black;
+    background-color: #FAF1A0;
+    text-align: center;
 }
