@@ -11,7 +11,7 @@ h1 {
     font-size: 30pt;
 }
 
-header {
+#header {
     text-align: center;
 }
 
@@ -35,6 +35,7 @@ header {
 
 #gallery {
     border: 1pt solid black;
+    margin-bottom: 2rem;
     background-color: #FAF1A0;
 }
 
@@ -44,4 +45,18 @@ header {
 
 #gallery figure {
     text-align: center;
+}
+
+/* Literature Section */
+
+#lit {
+    text-align: center;
+    border: 1pt solid red;
+    margin-bottom: 2rem;
+}
+
+#lit div {
+    padding: 2rem;
+    max-width: 40rem;
+    margin: 0 auto;
 }
