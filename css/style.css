@@ -15,6 +15,7 @@ header {
     text-align: center;
 }
 
+/* Hero Section */
 #hero, footer {
     border: 1pt solid black;
     background-color: #FAF1A0;
@@ -25,6 +26,23 @@ header {
     width: 300px;
 }
 
+/* Bio Section */
 #bio {
     text-align: center;
 }
+
+/* Gallery Section */
+
+#gallery {
+    border: 1pt solid black;
+    background-color: #FAF1A0;
+}
+
+/* FOR WHEN IMAGES ARE ADDED
+#gallery img {
+    max-width: 100%;
+}
+
+#gallery figure {
+    text-align: center;
+} */
