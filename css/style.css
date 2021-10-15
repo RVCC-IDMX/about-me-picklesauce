@@ -12,7 +12,7 @@ h1 {
 }
 
 h2 {
-    margin-bottom: 0;
+    margin-bottom: 0px;
 }
 
 /* Header Section */
@@ -62,7 +62,7 @@ ul {
 
 #gallery h2 {
     padding: 0.5rem;
-    margin: 0;
+    margin: 0px;
     text-align: center;
 }
 
