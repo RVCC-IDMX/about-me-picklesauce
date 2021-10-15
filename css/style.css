@@ -88,6 +88,11 @@ ul {
     margin: 0 auto;
 }
 
+/* Bye Section */
+#bye {
+    text-align: center;
+    margin-bottom: 2rem; 
+}
 /* Footer Section */
 
 #footer {
