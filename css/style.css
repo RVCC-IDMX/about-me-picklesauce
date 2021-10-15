@@ -37,6 +37,17 @@ h1 {
     text-align: center;
 }
 
+/* Hobby Section */
+#hobbies {
+    text-align: center;
+}
+
+/* center and align left */
+ul { 
+	display: inline-block;
+    text-align: left;
+	}
+
 /* Gallery Section */
 
 #gallery {
