@@ -119,7 +119,8 @@ h2 {
 
     #lit div {
         max-width: 100%;
-        columns: 20rem;
+        columns: 40rem;
+        text-align: left;
     }
 }
 
