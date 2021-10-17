@@ -96,3 +96,11 @@ h2 {
     background-color: #FAF1A0;
     text-align: center;
 }
+
+/* Media Queries */
+
+@media screen and (min-width: 60em) {
+    figure {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
