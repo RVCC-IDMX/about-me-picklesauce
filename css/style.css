@@ -89,6 +89,17 @@ h2 {
     margin: 0 auto;
 }
 
+/* Dropcap */
+
+#lit div p:first-child:first-letter {
+    color: black;
+    float: left;
+    font-size: 3em;
+    padding: 0.25em;
+    margin-right: 0.10em;
+    line-height: 0.65;
+}
+
 /* Bye Section */
 #bye {
     text-align: center;
