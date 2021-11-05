@@ -1,4 +1,4 @@
-/* General Style */
+/* general style */
 body {
     font-family: "PT Sans";
     background-color: #F5F1D0;
@@ -16,7 +16,7 @@ h2 {
     margin: 0.1em;
 }
 
-/* Header */
+/* header */
 #header {
     text-align: center;
 }
@@ -25,7 +25,7 @@ h2 {
     width: 30px;
 }
 
-/* Hero */
+/* hero */
 #hero {
     border: 1pt solid black;
     background-color: #FAF1A0;
@@ -37,19 +37,19 @@ h2 {
     max-width: 100%;
 }
 
-/* Bio */
+/* bio */
 #bio {
     text-align: center;
 }
 
-/* Hobbies */
+/* hobbies */
 #hobbies {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-/* Gallery */
+/* gallery */
 #gallery {
     border: 1pt solid black;
     margin-bottom: 2rem;
@@ -70,7 +70,7 @@ h2 {
     text-align: center;
 }
 
-/* Literature */
+/* literature */
 #lit {
     text-align: center;
     border: 1pt solid red;
@@ -88,7 +88,7 @@ h2 {
     margin: 0 auto;
 }
 
-/* Dropcap */
+/* dropcap */
 #lit div p:first-child:first-letter {
     color: black;
     float: left;
@@ -98,8 +98,7 @@ h2 {
     line-height: 0.65;
 }
 
-/* Video */
-
+/* video */
 #vid{
     text-align: center;
 }
@@ -114,19 +113,19 @@ h2 {
     max-width: 100%;
 }
 
-/* Bye */
+/* bye */
 #bye {
     text-align: center;
     margin-bottom: 2rem; 
 }
-/* Footer */
+/* footer */
 #footer {
     border: 1pt solid black;
     background-color: #FAF1A0;
     text-align: center;
 }
 
-/* Tablet Size */
+/* tablet size */
 
 @media screen and (min-width: 60em) {
     figure {
@@ -153,7 +152,7 @@ h2 {
     }
 }
 
-/* Large Size */
+/* large size */
 
 @media screen and (min-width: 100em) {
     #gallery {
