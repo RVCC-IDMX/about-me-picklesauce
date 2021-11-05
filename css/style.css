@@ -148,9 +148,13 @@ h2 {
 
     #lit div {
         max-width: 100%;
-        columns: 40rem;
+        columns: 20rem;
     }
-}
+
+    #myVideo {
+        height: 360px;
+        width: 640px;
+    }
 
 /* large size (1600px wide) */
 
@@ -174,5 +178,14 @@ h2 {
 
     figcaption {
         font-size: 1.3rem;
+    }
+
+    #lit div {
+        columns: 40rem;
+    }
+
+    #myVideo {
+        height: 480px;
+        width: 854px;
     }
 }
