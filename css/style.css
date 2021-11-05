@@ -72,7 +72,7 @@ h2 {
 
 /* literature */
 #lit {
-    text-align: center;
+    text-align: left;
     border: 1pt solid red;
     margin-bottom: 2rem;
 }
@@ -125,7 +125,7 @@ h2 {
     text-align: center;
 }
 
-/* tablet size */
+/* tablet size (960px wide) */
 
 @media screen and (min-width: 60em) {
     figure {
@@ -152,7 +152,7 @@ h2 {
     }
 }
 
-/* large size */
+/* large size (1600px wide) */
 
 @media screen and (min-width: 100em) {
     #gallery {
