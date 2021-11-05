@@ -72,7 +72,7 @@ h2 {
 
 /* literature */
 #lit {
-    text-align: left;
+    text-align: center;
     border: 1pt solid red;
     margin-bottom: 2rem;
 }
@@ -82,6 +82,7 @@ h2 {
 }
 
 #lit div {
+    text-align: left;
     padding: 2rem;
     padding-top: 0rem;
     max-width: 40rem;
@@ -148,7 +149,6 @@ h2 {
     #lit div {
         max-width: 100%;
         columns: 40rem;
-        text-align: left;
     }
 }
 
