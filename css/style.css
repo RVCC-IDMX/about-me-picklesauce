@@ -123,6 +123,45 @@ h2 {
 /* contact form */
 #formelements {
     display: grid;
+    row-gap: .5em;
+}
+
+/* #contact {
+} */
+
+fieldset {
+    border: 1px solid black;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+#contact input, #contact textarea, #contact select, #contact button {
+    padding: .5em;
+    font-size: 1rem;
+}
+
+#contact textarea {
+    resize: none;
+}
+
+#contact ul {
+    list-style: none;
+    padding: 0px
+} 
+
+#contact li {
+    margin: .25rem;
+}
+
+#contact button {
+    background-color: green;
+    color: black;
+    border: 1px solid black;
+    max-width: 400px;
+    width: 50%;
+    justify-self: center;
 }
 
 /* footer */
@@ -133,7 +172,6 @@ h2 {
 }
 
 /* tablet size (960px wide) */
-
 @media screen and (min-width: 60em) {
     figure {
         display: grid;

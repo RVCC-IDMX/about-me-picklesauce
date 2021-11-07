@@ -129,12 +129,11 @@
         </section>
 
         <section id="contact">
-            
-            <h2>Contact Me:</h2>
-
             <form id="contactform" name="contactform" method="post" data-netlify="true">
                 <fieldset>
-                    <legend>Contact Form</legend>
+                    <legend>
+                        <h2>Contact Form</h2>
+                    </legend>
                     
                     <div id="formelements">
                         <!-- name -->
@@ -163,19 +162,16 @@
                         <textarea id="message" name="message" rows="8"></textarea>
 
                         <!-- reply -->
-                        <fieldset>
-                            <legend>Would you like a reply?</legend>
-                            <ul>
-                                <li>
-                                    <input type="radio" id="message-yes" name="reply" value="Yes">
-                                    <label for="message-yes">Yes</label>
-                                </li>
-                                <li>
-                                    <input type="radio" id=message-no name="reply" value="No" checked>
-                                    <label for="message-no">No</label>
-                                </li>
-                            </ul>
-                        </fieldset>
+                        <ul> Would you like a reply?
+                            <li>
+                                <input type="radio" id="message-yes" name="reply" value="Yes">
+                                <label for="message-yes">Yes</label>
+                            </li>
+                            <li>
+                                <input type="radio" id=message-no name="reply" value="No" checked>
+                                <label for="message-no">No</label>
+                            </li>
+                        </ul>
 
                         <!-- submit -->
                         <button type="submit">Send</button>
