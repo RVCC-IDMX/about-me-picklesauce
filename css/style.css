@@ -108,7 +108,7 @@ h2 {
     margin-bottom: 1rem;
 }
 
-#myVideo {
+#myvideo {
     height: 400px;
     width: 400px;
     max-width: 100%;
@@ -119,6 +119,12 @@ h2 {
     text-align: center;
     margin-bottom: 2rem; 
 }
+
+/* contact form */
+#formelements {
+    display: grid;
+}
+
 /* footer */
 #footer {
     border: 1pt solid black;
@@ -151,7 +157,7 @@ h2 {
         columns: 20rem;
     }
 
-    #myVideo {
+    #myvideo {
         height: 360px;
         width: 640px;
     }
@@ -184,7 +190,7 @@ h2 {
         columns: 40rem;
     }
 
-    #myVideo {
+    #myvideo {
         height: 480px;
         width: 854px;
     }
