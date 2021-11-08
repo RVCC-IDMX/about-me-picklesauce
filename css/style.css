@@ -114,20 +114,11 @@ h2 {
     max-width: 100%;
 }
 
-/* bye */
-#bye {
-    text-align: center;
-    margin-bottom: 2rem; 
-}
-
 /* contact form */
 #formelements {
     display: grid;
-    row-gap: .5em;
+    row-gap: 0.5em;
 }
-
-/* #contact {
-} */
 
 fieldset {
     border: 1px solid black;
@@ -138,8 +129,12 @@ fieldset {
 }
 
 #contact input, #contact textarea, #contact select, #contact button {
-    padding: .5em;
+    padding: 0.5em;
     font-size: 1rem;
+}
+
+#name, #email, #phonenumber, #phonetype {
+    margin-bottom: 1em;
 }
 
 #contact textarea {
@@ -152,16 +147,23 @@ fieldset {
 } 
 
 #contact li {
-    margin: .25rem;
+    margin: 0.25rem;
 }
 
 #contact button {
-    background-color: green;
+    background-color: lightgreen;
     color: black;
     border: 1px solid black;
-    max-width: 400px;
-    width: 50%;
+    width: 100%;
     justify-self: center;
+    border-radius: 0.2em;
+    margin-bottom: 0.25em;
+}
+
+/* bye */
+#bye {
+    text-align: center;
+    margin-bottom: 2rem; 
 }
 
 /* footer */
@@ -169,6 +171,7 @@ fieldset {
     border: 1pt solid black;
     background-color: #FAF1A0;
     text-align: center;
+    padding: 0.25em;
 }
 
 /* tablet size (960px wide) */
@@ -198,6 +201,15 @@ fieldset {
     #myvideo {
         height: 360px;
         width: 640px;
+    }
+
+    #contact {
+        width: 640px;
+        margin: auto;
+    }
+
+    #contact button {
+        max-width: 25%;
     }
 }
 
@@ -230,6 +242,10 @@ fieldset {
 
     #myvideo {
         height: 480px;
+        width: 854px;
+    }
+
+    #contact {
         width: 854px;
     }
 }
