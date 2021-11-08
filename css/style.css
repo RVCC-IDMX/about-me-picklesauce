@@ -151,7 +151,7 @@ fieldset {
 }
 
 #contact button {
-    background-color: lightgreen;
+    background-color: #00FA9A;
     color: black;
     border: 1px solid black;
     width: 100%;
@@ -209,7 +209,7 @@ fieldset {
     }
 
     #contact button {
-        max-width: 25%;
+        max-width: 20%;
     }
 }
 
