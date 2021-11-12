@@ -16,6 +16,15 @@ h2 {
     margin: 0.1em;
 }
 
+.separator {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    height: 2px;
+    background-color: black;
+    border: none;
+    width: 60%;
+}
+
 /* header */
 #header {
     text-align: center;
@@ -234,7 +243,7 @@ fieldset {
         grid-column: 1/-1;
     }
 
-    hr {
+    #gallery hr {
         display: none;
     }
     
