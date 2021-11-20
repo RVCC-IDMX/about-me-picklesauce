@@ -1,7 +1,7 @@
 /* general style */
 body {
     font-family: "PT Sans";
-    background-color: #F5F1D0;
+    background-color: #F7F0FF;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -37,7 +37,7 @@ h2 {
 /* hero */
 #hero {
     border: 1pt solid black;
-    background-color: #FAF1A0;
+    background-color: #FFFF77;
     text-align: center;
 }
 
@@ -62,7 +62,7 @@ h2 {
 #gallery {
     border: 1pt solid black;
     margin-bottom: 2rem;
-    background-color: #FAF1A0;
+    background-color: #FFFF77;
 }
 
 #gallery h2 {
@@ -188,7 +188,7 @@ fieldset {
 /* footer */
 #footer {
     border: 1pt solid black;
-    background-color: #FAF1A0;
+    background-color: #FFFF77;
     text-align: center;
     padding: 0.25em;
 }
