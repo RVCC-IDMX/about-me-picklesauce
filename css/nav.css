@@ -40,16 +40,21 @@ main {
 }
 
 /* navigation list */
+.navbar-links li {
+    list-style: none;
+    display: block;
+    padding: 0.5em 0;
+}
 
-
-/*  
- style all a tags in header 
- and then on hover
-*/
-
-
-
-
+/* style all a tags in header and then on hover */
+.navbar-links a {
+    color: black;
+    font-size: 1.2em;
+    padding: 1rem 1.25rem;
+    letter-spacing: 2px;
+    text-decoration: none;
+    display: inline-block;
+}
 
 /* 
 media query for non-mobile nav bar
