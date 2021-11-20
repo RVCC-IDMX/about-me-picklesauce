@@ -49,11 +49,17 @@ main {
 /* style all a tags in header and then on hover */
 .navbar-links a {
     color: black;
+    background-color: #FFFF77;
     font-size: 1.2em;
     padding: 1rem 1.25rem;
     letter-spacing: 2px;
     text-decoration: none;
     display: inline-block;
+}
+
+.navbar-links a:hover, .navbar-links a:focus {
+    filter: invert(1);
+    outline: none;
 }
 
 /* 
