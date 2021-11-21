@@ -21,19 +21,16 @@ hr {
 .separator-bio-bottom {
     margin-top: 2em;
     margin-bottom: 2em;
-    width: 60%;
 }
 
 .separator-contact-top {
     margin-top: 2em;
     margin-bottom: 2em;
-    width: 60%;
 }
 
 .separator-bye {
     margin-top: 2em;
     margin-bottom: 2em;
-    width: 60%;
 }
 
 /* header */
@@ -72,7 +69,7 @@ hr {
 /* gallery */
 #gallery {
     border: 1pt solid black;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     background-color: #FFFF77;
 }
 
@@ -89,18 +86,18 @@ hr {
     text-align: center;
 }
 
-/* literature */
-#lit {
+/* blog */
+#blog {
     text-align: center;
-    border: 1pt solid red;
-    margin-bottom: 2rem;
+    border: 1pt solid black;
+    margin-bottom: 1rem;
 }
 
-#lit h2{
+#blog h2{
     padding: 0.5rem;
 }
 
-#lit div {
+#blog div {
     text-align: left;
     padding: 2rem;
     padding-top: 0rem;
@@ -109,7 +106,7 @@ hr {
 }
 
 /* dropcap */
-#lit div p:first-child:first-letter {
+#blog div p:first-child:first-letter {
     color: black;
     float: left;
     font-size: 3em;
@@ -197,7 +194,7 @@ fieldset {
 /* footer */
 #footer {
     text-align: center;
-    padding: 1em;
+    padding-bottom: 1rem;
 }
 
 /* tablet size (960px wide) */
@@ -219,7 +216,7 @@ fieldset {
         width: 100%;
     }
 
-    #lit div {
+    #blog div {
         max-width: 100%;
         columns: 20rem;
     }
@@ -236,6 +233,10 @@ fieldset {
 
     #contact button {
         max-width: 20%;
+    }
+
+    #gallery {
+        margin-bottom: 2rem;
     }
 }
 
@@ -262,7 +263,7 @@ fieldset {
         font-size: 1.3rem;
     }
 
-    #lit div {
+    #blog div {
         columns: 40rem;
     }
 
