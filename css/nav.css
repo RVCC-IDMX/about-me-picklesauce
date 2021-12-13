@@ -50,17 +50,15 @@ main {
 
 /* style all a tags in header and then on hover */
 .navbar-links a {
-    color: whitesmoke;
-    background-color: #3E3C40;
+    color:#c4c4c4;
     font-size: 1.2em;
-    padding: 1rem 1.25rem;
+    padding: 0 1.25rem; /* 1rem 1.25rem */
     text-decoration: none;
     display: inline-block;
 }
 
 .navbar-links a:hover, .navbar-links a:focus {
-    color: #3E3C40;
-    background-color: whitesmoke;
+    color: whitesmoke;
     outline: none;
 }
 
@@ -93,14 +91,11 @@ such that no text wraps
     width: 1.5rem;
     fill: white;
     padding-right: 2vw;
+    margin-top: 0.2rem;
 }
 
 .close {
     display: none;
-}
-
-.menu {
-    margin-top: 0.2rem;
 }
 
 .navbar-checkbox {
