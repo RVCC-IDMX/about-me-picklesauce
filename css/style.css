@@ -5,7 +5,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: "Open Sans";
+    font-family: "Open Sans";   /* header text font */
 }
 
 h2 {
@@ -18,17 +18,7 @@ hr {
     border: none;
 }
 
-.separator-bio-bottom {
-    margin-top: 1.5em;
-    margin-bottom: 1.5em;
-}
-
-.separator-contact-top {
-    margin-top: 1.5em;
-    margin-bottom: 1.5em;
-}
-
-.separator-bye {
+.separator {
     margin-top: 1.5em;
     margin-bottom: 1.5em;
 }
@@ -44,24 +34,22 @@ hr {
 
 /* hero */
 #hero {
-    border: 1pt solid black;
-    background-color: #FFFF77;
+    /* border: 1pt solid black; */
+    /* background-color: #FFFF66; */
     text-align: center;
-    margin-bottom: 1.5em;
 }
 
 #hero img {
-    width: 300px;
+    width: 200px;
     max-width: 100%;
 }
 
-/* bio */
-#bio {
-    text-align: center;
+#hero h1 {
+    padding: 0.5rem;
 }
 
-/* hobbies */
-#hobbies {
+/* bio/hobbies*/
+#bio {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -70,12 +58,11 @@ hr {
 /* gallery */
 #gallery {
     border: 1pt solid black;
-    margin-bottom: 1rem;
-    background-color: #FFFF77;
+    background-color: #FFFF66;
+    margin-bottom: 2rem;
 }
 
 #gallery h2 {
-    padding: 0.5rem;
     text-align: center;
 }
 
@@ -90,7 +77,6 @@ hr {
 /* blog */
 #blog {
     text-align: center;
-    border: 1pt solid black;
     margin-bottom: 1rem;
 }
 
@@ -186,6 +172,10 @@ fieldset {
     box-shadow: 0 8px 10px 0 rgba(0,0,0,0.25);
 }
 
+#name, #email {
+    display: inline-flex;
+}
+
 /* bye */
 #bye {
     text-align: center;
@@ -193,12 +183,13 @@ fieldset {
 
 /* footer */
 #footer {
-    text-align: center;
+    text-align: left;
     padding-bottom: 1rem;
+    padding-left: 2vw;
 }
 
-/* tablet size (960px wide) */
-@media screen and (min-width: 60em) {
+/* iPad pro size (1024px wide) */
+@media screen and (min-width: 64em) {
     figure {
         display: grid;
         grid-template-columns: 2fr 1fr;
@@ -234,14 +225,10 @@ fieldset {
     #contact button {
         max-width: 20%;
     }
-
-    #gallery {
-        margin-bottom: 2rem;
-    }
 }
 
-/* large size (1600px wide) */
-@media screen and (min-width: 100em) {
+/* large size (1200px wide) */
+@media screen and (min-width: 75em) {
     #gallery {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
@@ -274,5 +261,9 @@ fieldset {
 
     #contact {
         width: 854px;
+    }
+
+    #footer {
+        padding-left: 10vw;
     }
 }

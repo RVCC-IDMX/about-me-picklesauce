@@ -12,8 +12,10 @@ body {
 
 /* add some padding back to rest of page */
 main {
-    padding: 2vw;
+    /* padding: 2vw; */
     padding-bottom: 0;
+    padding-right: 2vw;
+    padding-left: 2vw;
 }
 
 /* navbar */
@@ -22,7 +24,7 @@ main {
     background-color: #3E3C40;
     display: flex;
     flex-direction: column;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 /* logo */
@@ -33,8 +35,7 @@ main {
 }
 
 .logo img {
-    height: 6vw;
-    width: 6vw;
+    padding-right: 5px;
 }
 
 .logo h1 {
@@ -44,23 +45,21 @@ main {
 /* navigation list */
 .navbar-links li {
     list-style: none;
-    display: block;
+    display: none;
     padding: 0.5em 2vw 0.5em 0;
 }
 
 /* style all a tags in header and then on hover */
 .navbar-links a {
-    color: whitesmoke;
-    background-color: #3E3C40;
+    color: #DEDEDE;
     font-size: 1.2em;
-    padding: 1rem 1.25rem;
+    /* padding: 0 1.25rem;   1rem 1.25rem; */
     text-decoration: none;
     display: inline-block;
 }
 
 .navbar-links a:hover, .navbar-links a:focus {
-    color: #3E3C40;
-    background-color: whitesmoke;
+    color: whitesmoke;
     outline: none;
 }
 
@@ -75,8 +74,62 @@ such that no text wraps
         justify-content: space-between;
     }
 
+    main {
+        padding-right: 10vw;
+        padding-left: 10vw;
+    }
+
     .navbar ul {
         display: flex;
         justify-content: space-between;
+    }
+}
+
+.navbar-toggle {
+    position: absolute;
+    cursor: pointer;
+    margin: 0rem 1;
+    right: 0;
+}
+
+.menu, .close {
+    width: 1.5rem;
+    fill: white;
+    padding-right: 2vw;
+    margin-top: 0.2rem;
+}
+
+.close {
+    display: none;
+}
+
+.navbar-checkbox {
+    display: none;
+}
+
+#navbar-checkbox:checked ~ div.navbar-links li {
+    display: block;
+}
+
+#navbar-checkbox:checked ~ label.navbar-toggle .close {
+    display: block;
+}
+
+#navbar-checkbox:checked ~ label.navbar-toggle .menu {
+    display: none;
+}
+
+@media screen and (min-width: 60rem) {
+    .navbar-toggle {
+        display: none;
+    }
+
+    .navbar-links li {
+        display: block;
+    }
+
+
+    .menu, .close {
+        padding-right: 10vw;
     }
 }
