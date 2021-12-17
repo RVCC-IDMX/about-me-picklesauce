@@ -74,6 +74,11 @@ such that no text wraps
         justify-content: space-between;
     }
 
+    main {
+        padding-right: 10vw;
+        padding-left: 10vw;
+    }
+
     .navbar ul {
         display: flex;
         justify-content: space-between;
@@ -121,5 +126,10 @@ such that no text wraps
 
     .navbar-links li {
         display: block;
+    }
+
+
+    .menu, .close {
+        padding-right: 10vw;
     }
 }

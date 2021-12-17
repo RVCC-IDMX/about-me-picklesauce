@@ -1,12 +1,11 @@
 /* general style */
-
 body {
     font-family: "PT Sans";
     background-color: #F7F0FF;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: "Open Sans";
+    font-family: "Open Sans";   /* header text font */
 }
 
 h2 {
@@ -19,12 +18,7 @@ hr {
     border: none;
 }
 
-.separator-contact-top {
-    margin-top: 1.5em;
-    margin-bottom: 1.5em;
-}
-
-.separator-bye {
+.separator {
     margin-top: 1.5em;
     margin-bottom: 1.5em;
 }
@@ -191,7 +185,7 @@ fieldset {
 #footer {
     text-align: left;
     padding-bottom: 1rem;
-    padding-left: 3vw;
+    padding-left: 2vw;
 }
 
 /* iPad pro size (1024px wide) */
@@ -267,5 +261,9 @@ fieldset {
 
     #contact {
         width: 854px;
+    }
+
+    #footer {
+        padding-left: 10vw;
     }
 }
